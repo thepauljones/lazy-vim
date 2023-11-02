@@ -3,5 +3,4 @@
 -- Add any additional keymaps here
 --
 -- Open fugitive on leader g
-vim.keymap.set("n", "<leader>g", "<Cmd>Git<CR>", { silent = true })
-
+vim.keymap.set("n", "<leader>g", "<Cmd>Git<CR>", { silent = true, noremap = true })
