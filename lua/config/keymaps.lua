@@ -4,3 +4,7 @@
 --
 -- Open fugitive on leader g
 vim.keymap.set("n", "<leader>g", "<Cmd>Git<CR>", { silent = true, noremap = true })
+
+-- Stop ESC + j or k moving lines
+vim.keymap.del("n", "<A-j>")
+vim.keymap.del("n", "<A-k>")
