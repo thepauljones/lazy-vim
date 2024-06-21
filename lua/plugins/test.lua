@@ -17,7 +17,7 @@ return {
       {
         "<leader>tL",
         function()
-          require("neotest").run.run_last({ strategy = "dap" })
+          require("neotest").run.run_last({ strategy = "dap", suite = false })
         end,
         desc = "Debug Last Test",
       },
