@@ -10,6 +10,9 @@ vim.keymap.set("n", "<leader>gb", "<Cmd>Git blame<CR>", { silent = true, noremap
 
 vim.keymap.set("n", "<leader>fg", "<Cmd>Telescope git_status<CR>", { silent = true, noremap = true })
 
+vim.keymap.set("n", "<leader>fn", "<Cmd>cn<CR>", { silent = true, noremap = true })
+vim.keymap.set("n", "<leader>fp", "<Cmd>cp<CR>", { silent = true, noremap = true })
+
 vim.keymap.set("n", "<leader>p", "<Cmd>!python %<CR>", { silent = true, noremap = true })
 vim.keymap.set("n", "<C-6>", "<C-^>", { silent = true, noremap = true })
 
